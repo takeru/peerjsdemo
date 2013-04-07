@@ -1,0 +1,28 @@
+// Place all the styles related to the top controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+div{
+  aborder: 1px black solid;
+}
+#box{
+  width: 100%;
+  display: -webkit-box;
+}
+#main{
+  width: 300px;
+  -webkit-box-flex:1;
+}
+#log{
+  padding: 5px;
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+#side{
+  width: 300px;
+}
+input#msg{
+  width:70%;
+}

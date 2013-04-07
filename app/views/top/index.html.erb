@@ -1,0 +1,33 @@
+<h1>JavaScript P2P ChatDemo with PeerJS/WebRTC</h1>
+
+<div id="box">
+  <div id="main">
+    <div>
+      <input id="msg" disabled />
+      <button id="send" disabled>Send</button>
+    </div>
+    <div id="log"></div>
+  </div>
+  <div id="side">
+    <div>
+      <a href="#" id="nickname"></a>
+    </div>
+    <div>
+      <input id="rid" placeholder="friend's peerid" />
+      <button id="connect">Connect</button>
+    </div>
+    <h4>peers(<span id="peerscount">0</span>)</h4>
+    <ul id="peerlist">
+    </ul>
+  </div>
+</div>
+
+<div id="tweet-btn" style="display:none;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://afternoon-reef-8649.herokuapp.com/" data-text="JavaScript P2P ChatDemo" data-lang="ja" data-size="large" data-hashtags="peerjschatdemo">ツイート</a>
+<script>
+function showTweetBtn(){
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+$("#tweet-btn").show()
+}
+</script>
+</div>
